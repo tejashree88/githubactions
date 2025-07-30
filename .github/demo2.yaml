@@ -1,0 +1,20 @@
+name: Demo2
+on: [push]
+jobs:
+   Job1:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Step1
+         run: echo "Running job 1"
+
+   Job2:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Step2
+         run: echo "Running job 2"
+         
+   Job3:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Step3
+         run: echo "Running job 3"
