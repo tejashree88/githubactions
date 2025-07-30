@@ -4,6 +4,8 @@ jobs:
   First-job:
     runs-on: ubuntu-latest
     steps:
-
-       
-      - run: ls -lart
+      - name: Checkout the Repo
+        uses: actions/checkout@v4
+        
+      -name: list all the files and folders of the repo
+       run: ls -lart
