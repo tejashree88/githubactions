@@ -4,4 +4,4 @@ jobs:
   First-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "ls-lart"
+      - run: echo "ls -lart"
