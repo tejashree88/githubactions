@@ -7,5 +7,5 @@ jobs:
       - name: Checkout the Repo
         uses: actions/checkout@v4
         
-      -name: list all the files and folders of the repo
+      - name: list all the files and folders of the repo
        run: ls -lart
